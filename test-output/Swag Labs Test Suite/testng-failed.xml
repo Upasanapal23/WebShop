@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Swag Labs Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Swag Labs Tests(failed)">
+    <classes>
+      <class name="cucumberOptions.TestNGRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- cucumberOptions.TestNGRunner -->
+    </classes>
+  </test> <!-- Swag Labs Tests(failed) -->
+</suite> <!-- Failed suite [Swag Labs Test Suite] -->

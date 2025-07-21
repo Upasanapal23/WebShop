@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"d2d2043afa7862d53b131122a77d5e7d","name":"Application Login","statistic":{"failed":0,"broken":1,"skipped":0,"passed":7,"unknown":0,"total":8}},{"uid":"5e4b49cdefda8001b16c97545fe15395","name":"Cucumber TestNG Suite","statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1}}]}

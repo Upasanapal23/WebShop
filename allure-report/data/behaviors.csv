@@ -1,0 +1,6 @@
+"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"1","","0","","0","0","","0"
+"0","","0","Application Login","2","0","TC2 - Invalid login to Swag Labs","0"
+"1","","0","Application Login","1","0","TC4 - Successful logout after login","0"
+"0","","0","Application Login","2","0","TC3 - Blank username and password","0"
+"0","","0","Application Login","2","0","TC1 - Valid login to Swag Labs","0"
