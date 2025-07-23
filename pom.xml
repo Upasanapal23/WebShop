@@ -13,6 +13,12 @@
   </properties>
 
   <dependencies>
+    <!-- WebDriverManager -->
+    <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>5.8.0</version>
+    </dependency>
 
     <!-- Cucumber -->
     <dependency>
@@ -34,14 +40,14 @@
       <version>4.21.0</version>
     </dependency>
 
-    <!-- SLF4J for logging -->
+    <!-- SLF4J Logging -->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-simple</artifactId>
       <version>2.0.13</version>
     </dependency>
 
-    <!-- Allure for Cucumber -->
+    <!-- Allure Cucumber 7 JVM Adapter -->
     <dependency>
       <groupId>io.qameta.allure</groupId>
       <artifactId>allure-cucumber7-jvm</artifactId>
@@ -54,18 +60,19 @@
       <artifactId>allure-testng</artifactId>
       <version>2.27.0</version>
     </dependency>
-   <dependency>
-   <groupId>commons-io</groupId>
-   <artifactId>commons-io</artifactId>
-   <version>2.15.1</version>
-    </dependency>
 
+    <!-- Commons IO (for screenshot utils) -->
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.15.1</version>
+    </dependency>
   </dependencies>
 
   <build>
     <plugins>
 
-      <!-- Compiler Plugin -->
+      <!-- Compiler -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -76,7 +83,7 @@
         </configuration>
       </plugin>
 
-      <!-- Surefire plugin for running TestNG -->
+      <!-- Surefire Plugin (for TestNG) -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
@@ -91,7 +98,7 @@
         </configuration>
       </plugin>
 
-      <!-- Allure Maven Plugin -->
+      <!-- Allure Report Plugin -->
       <plugin>
         <groupId>io.qameta.allure</groupId>
         <artifactId>allure-maven</artifactId>
@@ -101,7 +108,7 @@
     </plugins>
   </build>
 
-  <!-- Allure Report Profile -->
+  <!-- Allure Profile to generate reports -->
   <profiles>
     <profile>
       <id>allure-report</id>

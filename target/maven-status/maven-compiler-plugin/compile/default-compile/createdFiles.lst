@@ -1,5 +1,10 @@
+pages/CartPage.class
+utils/ConfigReader.class
+pages/CheckoutPage.class
 base/BaseClass.class
 utils/ScreenshotUtil.class
-pages/LoginPage.class
+pages/HomePage.class
 pages/BasePage.class
 listeners/TestListener.class
+utils/WaitUtils.class
+pages/LoginPage.class

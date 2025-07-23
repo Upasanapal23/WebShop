@@ -1,5 +1,10 @@
+/Users/upasanapal/eclipse-workspace/WebShop/src/main/java/pages/HomePage.java
+/Users/upasanapal/eclipse-workspace/WebShop/src/main/java/utils/WaitUtils.java
 /Users/upasanapal/eclipse-workspace/WebShop/src/main/java/pages/BasePage.java
 /Users/upasanapal/eclipse-workspace/WebShop/src/main/java/base/BaseClass.java
 /Users/upasanapal/eclipse-workspace/WebShop/src/main/java/utils/ScreenshotUtil.java
+/Users/upasanapal/eclipse-workspace/WebShop/src/main/java/utils/ConfigReader.java
+/Users/upasanapal/eclipse-workspace/WebShop/src/main/java/pages/CheckoutPage.java
 /Users/upasanapal/eclipse-workspace/WebShop/src/main/java/pages/LoginPage.java
+/Users/upasanapal/eclipse-workspace/WebShop/src/main/java/pages/CartPage.java
 /Users/upasanapal/eclipse-workspace/WebShop/src/main/java/listeners/TestListener.java

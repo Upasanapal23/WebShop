@@ -1,3 +1,4 @@
-stepDefinitions/LoginSteps.class
 cucumberOptions/TestNGRunner.class
+stepDefinitions/PurchaseSteps.class
+stepDefinitions/LoginSteps.class
 stepDefinitions/Hooks.class

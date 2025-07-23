@@ -1,13 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Cucumber TestNG Suite">
+<suite name="SwagLabs Automation Suite" verbose="1" parallel="none">
+
     <listeners>
+        <!-- Allure listener for TestNG -->
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+        
+        <!-- Custom listener to capture screenshots -->
         <listener class-name="listeners.TestListener"/>
     </listeners>
 
-    <test name="Login Tests">
+     <test name="WebShop Tests">
         <classes>
             <class name="cucumberOptions.TestNGRunner"/>
         </classes>
     </test>
+
 </suite>
