@@ -23,6 +23,7 @@ public class TestListener implements ITestListener {
             return;
         }
 
+
         String testName = result.getMethod().getMethodName();
         String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 
